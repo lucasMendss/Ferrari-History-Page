@@ -61,8 +61,7 @@ body {
   padding: 3rem;
   margin-bottom: 3rem;
   box-shadow: var(--sombra-destaque); 
-  
-  border: 1px solid var(--cinza-medio)
+  border: 1px solid var(--cinza-medio);
 } 
 
 .inicio h1,
@@ -79,18 +78,6 @@ body {
 .inicio h1 {
   font-size: 2.5rem;
   letter-spacing: -0.5px;
-}
-
-.inicio h1::after,
-.sobre h2::after,
-.localizacao h2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 60px;
-  height: 3px;
-  background: var(--vermelho-ferrari);
 }
 
 .inicio img,
